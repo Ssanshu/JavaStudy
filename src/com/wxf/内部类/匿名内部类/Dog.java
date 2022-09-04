@@ -16,7 +16,7 @@ public class Dog {
 
         Animal a = new Animal() {
             public void eat() {
-                System.out.println("狗吃肉");
+                System.out.println("狗吃辣条");
             }
         };
         a.eat();

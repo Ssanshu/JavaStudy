@@ -9,5 +9,14 @@ public class Test {
     public static void main(String[] args) {
         Dog d = new Dog();
         d.eat();
+
+        AllAnimal all = new AllAnimal();
+        all.eat(new Animal(){
+            @Override
+            public void eat() {
+                System.out.println("狗吃骨头");
+            }
+        });
+
     }
 }
