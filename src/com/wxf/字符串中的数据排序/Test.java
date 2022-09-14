@@ -10,6 +10,9 @@ import java.util.Arrays;
 public class Test {
 
     public static void main(String[] args) {
+        String a = "Hello World";
+        String b = "Hello";
+        System.out.println(a.contains(b));
         String s = "2,7,4,1,6,5,3";
         String[] strArray = s.split("\\,");
         int[] intArray = new int[strArray.length];
