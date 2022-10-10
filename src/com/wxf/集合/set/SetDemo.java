@@ -13,5 +13,8 @@ public class SetDemo {
         set.add("3");
         set.add("3");
         System.out.println(set);
+        // Hashcode 哈希码
+        System.out.println("重庆".hashCode());
+        System.out.println("成都".hashCode());
     }
 }
