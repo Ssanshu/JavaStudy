@@ -10,9 +10,14 @@ import java.util.Date;
  */
 public class CalendarDemo {
     public static void main(String[] args) {
-        Calendar calendar = Calendar.getInstance();
-//        calendar.add(Calendar.YEAR, -4); // add方法
-//        calendar.set(2018,9,15);// set方法
+
+        // 获取日历类的对象
+        Calendar calendar = Calendar.getInstance(); // 多态的形式
+//        calendar.add(Calendar.YEAR, -4); // add方法 四年前
+//        calendar.set(2018,9,15);// set方法 // 2018年9月15日
+        // 四年后的4天前
+        calendar.add(Calendar.YEAR, 4);
+        calendar.add(Calendar.DATE, -4);
         int  year = calendar.get(Calendar.YEAR);
         int month = calendar.get(Calendar.MONTH) + 1;// get得到的月份+1是真实月份 ;
         int date = calendar.get(Calendar.DATE);
