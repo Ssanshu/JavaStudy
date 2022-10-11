@@ -1,4 +1,4 @@
-package com.wxf.集合.set;
+package com.wxf.集合.set.StudentTest;
 
 import java.util.Objects;
 
