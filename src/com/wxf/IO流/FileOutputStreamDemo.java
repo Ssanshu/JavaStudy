@@ -1,6 +1,5 @@
 package com.wxf.IO流;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
