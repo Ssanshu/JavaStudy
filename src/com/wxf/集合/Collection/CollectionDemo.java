@@ -2,6 +2,8 @@ package com.wxf.集合.Collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class CollectionDemo {
     public static void main(String[] args) {
@@ -15,6 +17,5 @@ public class CollectionDemo {
         collection.add("3");
         System.out.println(collection);
 
-        //
     }
 }

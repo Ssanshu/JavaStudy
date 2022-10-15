@@ -13,8 +13,8 @@ public class HashSetDemo {
         System.out.println(hashSet);
 
         // 遍历
-        for (String s : hashSet){
-            System.out.println(s)  ;
+        for (String s : hashSet) {
+            System.out.println(s);
         }
     }
 }
