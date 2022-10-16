@@ -1,4 +1,4 @@
-package com.wxf.IO流;
+package com.wxf.IO流.FileOutputStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.IOException;
  * @Author Ssanhu
  * @Date 2022-10-15
  */
-public class FileOutputStreamDemo {
+public class FileOutputStreamDemo1 {
     public static void main(String[] args) throws IOException {
         // 创建输出字节流对象
         FileOutputStream filetext = new FileOutputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\filetext.txt");
