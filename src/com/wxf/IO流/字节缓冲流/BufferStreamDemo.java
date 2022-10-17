@@ -10,15 +10,15 @@ public class BufferStreamDemo {
     public static void main(String[] args) throws IOException {
 
         // 字节缓冲输出流：BufferedOutputStream (OutputStream Out)
-//        BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\Bufferedfiletext.txt"));
+        BufferedOutputStream out = new BufferedOutputStream(new FileOutputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\Bufferedfiletext.txt"));
 
         // 写数据
-//        out.write("Hello".getBytes());
-//        out.write("\r\n".getBytes());
-//        out.write("world".getBytes());
-//        out.write("\r\n".getBytes());
+        out.write("Hello".getBytes());
+        out.write("\r\n".getBytes());
+        out.write("world".getBytes());
+        out.write("\r\n".getBytes());
         // 释放资源
-//        out.close();
+        out.close();
 
         // 字节缓冲输入流：BufferedInputStream (InputStream in)
         BufferedInputStream in = new BufferedInputStream(new FileInputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\Bufferedfiletext.txt"));

@@ -1,4 +1,4 @@
-package com.wxf.IO流.FileOutputStream;
+package com.wxf.IO流.字节流.字节输出流;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

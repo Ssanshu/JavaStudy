@@ -20,7 +20,7 @@ public class CopyJpgDemo {
      * 共用时：2819秒
      */
     public static long fileRead() throws IOException {
-        // 创建字符流对象
+        // 创建字节流对象
         FileInputStream fis = new FileInputStream("D:\\Eage下载\\Zero.jpg");
         FileOutputStream fos = new FileOutputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\Zero.jpg");
 
@@ -46,7 +46,7 @@ public class CopyJpgDemo {
      * 共用时：6秒
      */
     public static long filesRead() throws IOException {
-        // 创建字符流对象
+        // 创建字节流对象
         FileInputStream fis = new FileInputStream("D:\\Eage下载\\Zero.jpg");
         FileOutputStream fos = new FileOutputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\Zero.jpg");
 
@@ -73,7 +73,7 @@ public class CopyJpgDemo {
      * 共用时：25秒
      */
     public static long fileBufferedRead() throws IOException {
-        // 创建字符流对象
+        // 创建缓冲字节流对象
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream("D:\\Eage下载\\Zero.jpg"));
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\Zero.jpg"));
 
@@ -99,7 +99,7 @@ public class CopyJpgDemo {
      * 共用时：3秒
      */
     public static long filesBufferedRead() throws IOException {
-        // 创建字符流对象
+        // 创建缓冲字符流对象
         BufferedInputStream bis = new BufferedInputStream(new FileInputStream("D:\\Eage下载\\Zero.jpg"));
         BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream("D:\\Study\\javaBasicsStudy\\src\\com\\wxf\\IO流\\IOTest\\Zero.jpg"));
 

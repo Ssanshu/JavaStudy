@@ -1,4 +1,4 @@
-package com.wxf.IO流.字符流.复制练习;
+package com.wxf.IO流.字符缓冲流.复制练习;
 
 import java.io.*;
 
@@ -6,11 +6,11 @@ import java.io.*;
  * @Author Ssanshu
  * @Date 2022-10-17
  */
-public class CopyJavaTest {
+public class CopyJavaTest1 {
     public static void main(String[] args) throws IOException {
-        // 创建字符流对象
-        InputStreamReader reader = new InputStreamReader(new FileInputStream("D:\\Study\\javaBasicsStudy\\HelloWorld.java"));
-        OutputStreamWriter writer = new OutputStreamWriter(new FileOutputStream("D:\\Study\\javaBasicsStudy\\CopyJava.java"));
+        // 创建缓冲字符流对象
+        BufferedReader reader = new BufferedReader(new FileReader("D:\\Study\\javaBasicsStudy\\HelloWorld.java"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("D:\\Study\\javaBasicsStudy\\CopyJava.java"));
 
         // 复制
         int len;
