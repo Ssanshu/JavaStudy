@@ -15,7 +15,7 @@ public class ClientDemo {
         //Socket (InetAddress address,int port) 创建流套接字并将其连接到指定IP地址的指定端口号
         //Socket s = new Socket(InetAddress.getByName("192.168.1.148"),12315);
         // Socket (String host,int port)创建流套接字并将其连接到指定主机上的指定端口号
-        Socket s = new Socket("192.168.1.148",12315);
+        Socket s = new Socket("192.168.13.162",12315);
 
         // 获取输出流，写数据
         // OutputStream getOutputStream()返回此套接字的输出流
