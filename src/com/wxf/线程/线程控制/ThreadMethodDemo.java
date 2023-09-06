@@ -12,6 +12,8 @@ public class ThreadMethodDemo {
         MyThread th1 = new MyThread("a");
         MyThread th2 = new MyThread("b");
         MyThread th3 = new MyThread("c");
+
+        // static Thread currentThread() 返回对当前正在执行的线程对象的引用
         Thread.currentThread().setName("d");
 
         // 线程控制
