@@ -14,7 +14,8 @@ public class PrinterDemo {
 
         usePrinter(s -> System.out.println(s.toUpperCase()));
 
-        //引用对象的实例方法
+        // 引用对象的实例方法
+        // 对象::成员方法
         PrintString ps = new PrintString();
         usePrinter(ps::printUpper);
 

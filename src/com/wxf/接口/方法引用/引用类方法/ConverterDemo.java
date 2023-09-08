@@ -14,6 +14,7 @@ public class ConverterDemo {
 //        useConverter(s -> Integer.parseInt(s));
 
         // 引用类方法
+        // 类名::静态方法
         useConverter(Integer::parseInt);
 
         //Lambda表达式被类方法代替的时候，它的形式参数全部传递给静态方法作为参数
