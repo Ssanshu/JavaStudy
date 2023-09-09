@@ -32,6 +32,7 @@ public class StreamDemo {
         //数组可以通过Stream接口的静态方法of(T... values)生成流
         String[] strArray = {"hello", "world"};
         Stream<String> strArrayStream = Stream.of(strArray);
+        Stream<String> ArraysStream = Arrays.stream(strArray);
         Stream<String> stringStream = Stream.of("hello, world, java");
         Stream<Integer> integerStream = Stream.of(10, 20);
     }
