@@ -1,6 +1,7 @@
 package com.wxf.IO流.字符串编码解码;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 /**
@@ -22,7 +23,7 @@ public class StringDemo {
 
         // 解码
         // 使用平台默认字符集，默认为Utf-8
-        String s1 = new String(byte1, "UTF-8");
+        String s1 = new String(byte1, StandardCharsets.UTF_8);
         System.out.println(s1);
         // 使用GBK字符集
         String s2 = new String(byte2 , "GBK");

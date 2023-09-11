@@ -14,6 +14,7 @@ public class PrintStreamDemo {
 
         out.write(97); // 调用父级的方法，转码
         out.println(97); // 自己的方法不转码
+        out.println(63); // 自己的方法不转码
 
         out.close();
     }
